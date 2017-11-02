@@ -1,0 +1,477 @@
+body {
+    background-image: url("../../assets/images/Vintage-Speckles-White-Seamless-Pattern-For-Website-Background.jpg");
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    z-index: 1000;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+    font-size: 22px;
+    background-color: #eee;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+}
+    
+#wrapper {
+    width: 960px;
+    border: 0px solid red;
+    margin: 0 auto;
+    min-height: calc(100vh - 70px);
+}
+
+.header {
+    width: 960px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+
+.header-myname  {
+    background-color: #4AAAA5;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 26px;
+    position: absolute;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.header-nav {
+    float: right;
+    width: 270px;
+    line-height: 100px;
+}
+
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+p {
+    padding-top: 10px;
+    float: left;
+}
+
+.main-content {
+    border: 1px solid #dddddd;
+    width: 650px;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.sidebar-content {
+    border: 1px solid #dddddd;
+    width: 270px;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.social {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #666666;
+    clear: both;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.footerteal {
+    background-color: #4AAAA5;
+    height: 10px;
+    clear: both;
+}
+
+
+.portfolio-one {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+.portfolio-two {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+.portfolio-three {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.portfolio-four {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+.portfolio-five {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+br {
+        line-height: 200%;
+     }
+
+.button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+
+/* INDEX.html layout */
+
+/* Desktop max-width: 980px */
+@media screen and (max-width: 980px) {
+    
+#wrapper {
+    width: 50%;
+
+    }
+
+.header {
+    width: 100%;
+    }
+
+.header-nav {
+    float: right;
+    width: 40%;
+    }
+
+.main-content {
+    width: 50%;
+    }
+
+.sidebar-content {
+    width: 40%;
+
+    }
+
+}
+
+/* Tablet max-width: 768px */
+@media screen and (max-width: 768px) {
+    
+#wrapper {
+    width: 50%;
+    }
+
+.header {
+    width: 115%;
+    }
+
+.header-nav {
+    display: block;
+    width: 50%;
+    font-size: 12px;
+    }
+
+.main-content {
+    width: 110%;
+    }
+
+.sidebar-content {
+    width: 113%;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    }
+ }   
+
+/* Tablet max-width: 640px */
+@media screen and (max-width: 640px) {
+    
+#wrapper {
+    width: 50%;
+    }
+
+.header {
+    width: 115%;
+    height: 200px;
+    }
+
+.header-myname  {
+    background-color: #4AAAA5;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 26px;
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+}
+
+.header-nav {
+    width: 120%;
+    font-size: 14px;
+    margin-top: 100px;
+    text-align: center;
+
+    }
+
+.main-content {
+    width: 110%;
+    }
+
+.sidebar-content {
+    width: 113%;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    }
+
+ }   
+
+
+/* PORTFOLIO.html layout */
+
+/* Desktop max-width: 980px */
+@media screen and (max-width: 980px) {
+    
+#wrapper {
+    width: 50%;
+
+    }
+
+.header {
+    width: 100%;
+    }
+
+.header-nav {
+    float: right;
+    width: 40%;
+    }
+
+.main-content {
+    width: 60%;
+    }
+
+
+.sidebar-content {
+    width: 30%;
+
+    }
+
+}
+
+
+h3 {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.sidebar-content img {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+}
+
+/* Tablet max-width: 768px */
+@media screen and (max-width: 768px) {
+    
+#wrapper {
+    width: 50%;
+    }
+
+.header {
+    width: 115%;
+    }
+
+.header-nav {
+    display: block;
+    width: 50%;
+    font-size: 12px;
+    }
+
+.main-content {
+    width: 110%;
+    }
+
+.sidebar-content {
+    width: 113%;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    }
+ }   
+
+.portfolio-one {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.portfolio-two {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+.portfolio-three {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.portfolio-four {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+.portfolio-five {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+/* Tablet max-width: 640px */
+@media screen and (max-width: 640px) {
+    
+#wrapper {
+    width: 50%;
+    }
+
+.header {
+    width: 115%;
+    height: 200px;
+    }
+
+.header-myname  {
+    background-color: #4AAAA5;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 26px;
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+}
+
+.header-nav {
+    width: 120%;
+    font-size: 14px;
+    margin-top: 100px;
+    text-align: center;
+
+    }
+
+.main-content {
+    width: 110%;
+    }
+
+.sidebar-content {
+    width: 113%;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+    }
+
+ }   
+
+
+
+
